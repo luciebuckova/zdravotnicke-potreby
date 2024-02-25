@@ -9,17 +9,17 @@ function DesktopNav() {
       </div>
       <ul className="flex gap-16 text-xl font-medium">
         <li>
-          <a href="#onas" className="text-blue hover:text-pink">
+          <a href="#onas" className="text-blue-700 hover:text-fuchsia-600">
             O nás
           </a>
         </li>
         <li>
-          <a href="#produkty" className="text-blue hover:text-pink">
+          <a href="#produkty" className="text-blue-700 hover:text-fuchsia-600">
             Produkty
           </a>
         </li>
         <li>
-          <a href="#kontakt" className="text-blue hover:text-pink">
+          <a href="#kontakt" className="text-blue-700 hover:text-fuchsia-600">
             Kontakt
           </a>
         </li>

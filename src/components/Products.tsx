@@ -9,69 +9,69 @@ function Products() {
       </p>
       <p className="md:text-lg">
         Vydáváme zdravotní pomůcky na poukazy všech zdravotních pojišťoven,
-        přijímáme také <strong className="text-pink">ePoukazy</strong>.
+        přijímáme také <strong className="text-fuchsia-600">ePoukazy</strong>.
       </p>
       <div className="grid items-start gap-8 lg:grid-cols-3">
-        <div className="bg-hamburgerBg mt-16 rounded-xl p-8">
+        <div className="border-blue-700 bg-slate-50 mt-16 rounded-xl border-2 p-8">
           <ul>
             <li className="mb-4">
-              <strong className="text-blue">Inkontinenční vložky</strong> značek
-              Tena, MoliCare, Abena
-            </li>
-            <li className="mb-4">
-              <strong className="text-blue">Inkontinenční kalhotky</strong>{" "}
+              <strong className="text-blue-700">Inkontinenční vložky</strong>{" "}
               značek Tena, MoliCare, Abena
             </li>
             <li className="mb-4">
-              <strong className="text-blue">Kompresní punčochy</strong> Mediven,
-              Avicenum, Maxis
+              <strong className="text-blue-700">Inkontinenční kalhotky</strong>{" "}
+              značek Tena, MoliCare, Abena
+            </li>
+            <li className="mb-4">
+              <strong className="text-blue-700">Kompresní punčochy</strong>{" "}
+              Mediven, Avicenum, Maxis
             </li>
             <li>
-              <strong className="text-blue">Ortopedické pomůcky</strong> -
+              <strong className="text-blue-700">Ortopedické pomůcky</strong> -
               podpatěnky, korektory, stélky
             </li>
           </ul>
         </div>
-        <div className="bg-hamburgerBg rounded-xl p-8 lg:mt-24">
+        <div className="border-purple-700 bg-slate-50 rounded-xl border-2 p-8 lg:mt-24">
           <ul>
             <li className="mb-4">
-              <strong className="text-blue">Rehabilitační pomůcky</strong> -
-              gymnastické míče, overbally, balanční podložky, masážní válečky,
+              <strong className="text-purple-700">Rehabilitační pomůcky</strong>{" "}
+              - gymnastické míče, overbally, balanční podložky, masážní válečky,
               míčky, tejpy, podsedáky
             </li>
             <li className="mb-4">
-              <strong className="text-blue">Zdravotní obuv</strong> na doma i na
-              ven
+              <strong className="text-purple-700">Zdravotní obuv</strong> na
+              doma i na ven
             </li>
             <li className="mb-4">
-              <strong className="text-blue">Zdravotní ponožky</strong> pro
+              <strong className="text-purple-700">Zdravotní ponožky</strong> pro
               diabetiky, adjustační ponožky, bandáže, ortézy, bederní pásy
             </li>
           </ul>
         </div>
-        <div className="bg-hamburgerBg rounded-xl p-8 lg:mt-32">
+        <div className="border-fuchsia-600 bg-slate-50 rounded-xl border-2 p-8 lg:mt-32">
           <ul>
             <li className="mb-4">
-              <strong className="text-blue">
+              <strong className="text-fuchsia-600">
                 Tlakoměry, teploměry, glukometry
               </strong>
             </li>
             <li className="mb-4">
-              <strong className="text-blue">
+              <strong className="text-fuchsia-600">
                 Dezinfekční přípravky, speciální kosmetika
               </strong>{" "}
               Menalind, Seni Care, Tena
             </li>
             <li className="mb-4">
-              <strong className="text-blue">Soupravy na klistýr</strong>
+              <strong className="text-fuchsia-600">Soupravy na klistýr</strong>
             </li>
             <li className="mb-4">
-              <strong className="text-blue">
+              <strong className="text-fuchsia-600">
                 Nahřívací a chladivé polštářky
               </strong>
             </li>
             <li>
-              <strong className="text-blue">
+              <strong className="text-fuchsia-600">
                 Podpažní berle, francouzské hole, vycházkové hole
               </strong>
             </li>

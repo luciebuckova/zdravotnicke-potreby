@@ -5,14 +5,14 @@ function Hero() {
         Zdravotnické potřeby Ludmila Bučková
       </h1>
       <h2 className="mb-14 text-lg font-medium tracking-wider md:text-2xl">
-        V centru <strong className="text-pink">Liberce</strong> Vám nabízíme
-        mimo jiné široký sortiment inkontinenčních pomůcek, zdravotních punčoch
-        a obuvi
+        V centru <strong className="text-fuchsia-600">Liberce</strong> Vám
+        nabízíme mimo jiné široký sortiment inkontinenčních pomůcek, zdravotních
+        punčoch a obuvi
       </h2>
       <div>
         <a
           href="#kontakt"
-          className="bg-mainBg hover:text-mainBg rounded-lg border-2 border-pink px-8 py-4 font-medium text-pink duration-300 hover:bg-pink md:text-2xl"
+          className="text-white bg-purple-600 hover:bg-fuchsia-700 rounded-lg px-8 py-4 font-medium duration-300 md:text-2xl"
         >
           Kde nás najdete →
         </a>

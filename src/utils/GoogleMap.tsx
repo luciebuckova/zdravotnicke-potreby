@@ -41,7 +41,7 @@ function GoogleMap() {
             <p className="mb-4">Široká 27/3, 460 07 Liberec</p>
             <a
               href="https://maps.google.com/maps?ll=50.767784,15.054767&z=20&t=m&hl=cs&gl=US&mapclient=apiv3&cid=6115937332757798580"
-              className="text-blue"
+              className="text-blue-700"
             >
               Zobrazit v Mapách Google
             </a>

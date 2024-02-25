@@ -32,13 +32,13 @@ function IsOpen() {
 
   return isOpenToday ? (
     <p className="mb-2 font-normal">
-      Máme <strong className="text-gradient uppercase">otevřeno</strong>, tešíme
-      se na vaši navštěvu.
+      Máme <strong className="uppercase">otevřeno</strong>, tešíme se na vaši
+      navštěvu.
     </p>
   ) : (
     <p className="mb-2 font-normal">
-      Máme <strong className="uppercase text-pink">zavřeno</strong>. Navštivte
-      nás v otevíracích hodinách:
+      Máme <strong className="uppercase">zavřeno</strong>. Navštivte nás v
+      otevíracích hodinách:
     </p>
   );
 }
