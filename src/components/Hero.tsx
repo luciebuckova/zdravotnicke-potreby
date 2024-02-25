@@ -12,7 +12,7 @@ function Hero() {
       <div>
         <a
           href="#kontakt"
-          className="bg-lighter rounded-lg border-2 border-pink px-8 py-4 font-medium text-pink duration-300 hover:bg-pink hover:text-light md:text-2xl"
+          className="bg-mainBg hover:text-mainBg rounded-lg border-2 border-pink px-8 py-4 font-medium text-pink duration-300 hover:bg-pink md:text-2xl"
         >
           Kde nás najdete →
         </a>
