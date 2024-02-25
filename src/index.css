@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -7,16 +7,12 @@
 .text-gradient {
   background: -webkit-linear-gradient(
     43deg,
-    #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
+    #2f46bc 0%,
+    #94148c 46%,
+    #f7920c 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.bg-gradient {
-  background: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
 }
 
 .hamburger {
@@ -30,13 +26,13 @@
 .hamburger-top,
 .hamburger-middle,
 .hamburger-bottom {
-  content: '';
+  content: "";
   position: absolute;
   width: 24px;
   height: 3px;
   top: 0;
   left: 0;
-  background: #ffcc70;
+  background: #2f46bc;
   transform: rotate(0);
   transition: all 0.5s;
 }

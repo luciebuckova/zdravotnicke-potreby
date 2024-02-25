@@ -1,12 +1,12 @@
 function IsOpen() {
   const daysOfWeek: string[] = [
-    'Sunday',
-    'Monday',
-    'Tuesday',
-    'Wednesday',
-    'Thursday',
-    'Friday',
-    'Saturday',
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
   ];
   const today: number = new Date().getDay();
   const currentTime: number = new Date().getHours();
@@ -31,12 +31,12 @@ function IsOpen() {
     currentTime < todayOpeningHours.close;
 
   return isOpenToday ? (
-    <p className="font-normal">
-      Máme <strong className="uppercase text-yellow">otevřeno</strong>, tešíme
+    <p className="mb-2 font-normal">
+      Máme <strong className="text-gradient uppercase">otevřeno</strong>, tešíme
       se na vaši navštěvu.
     </p>
   ) : (
-    <p className="font-normal">
+    <p className="mb-2 font-normal">
       Máme <strong className="uppercase text-pink">zavřeno</strong>. Navštivte
       nás v otevíracích hodinách:
     </p>

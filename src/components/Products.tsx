@@ -12,14 +12,14 @@ function Products() {
         přijímáme také <strong className="text-pink">ePoukazy</strong>.
       </p>
       <div className="grid items-start gap-8 lg:grid-cols-3">
-        <div className="mt-16 rounded-xl bg-light p-8 text-dark">
+        <div className="bg-hamburgerBg mt-16 rounded-xl p-8">
           <ul>
             <li className="mb-4">
               <strong className="text-blue">Inkontinenční vložky</strong> značek
               Tena, MoliCare, Abena
             </li>
             <li className="mb-4">
-              <strong className="text-blue">Inkontinenční kalhotky</strong>
+              <strong className="text-blue">Inkontinenční kalhotky</strong>{" "}
               značek Tena, MoliCare, Abena
             </li>
             <li className="mb-4">
@@ -32,7 +32,7 @@ function Products() {
             </li>
           </ul>
         </div>
-        <div className="rounded-xl bg-light p-8 text-dark lg:mt-24">
+        <div className="bg-hamburgerBg rounded-xl p-8 lg:mt-24">
           <ul>
             <li className="mb-4">
               <strong className="text-blue">Rehabilitační pomůcky</strong> -
@@ -49,7 +49,7 @@ function Products() {
             </li>
           </ul>
         </div>
-        <div className="rounded-xl bg-light p-8 text-dark lg:mt-32">
+        <div className="bg-hamburgerBg rounded-xl p-8 lg:mt-32">
           <ul>
             <li className="mb-4">
               <strong className="text-blue">
@@ -59,7 +59,7 @@ function Products() {
             <li className="mb-4">
               <strong className="text-blue">
                 Dezinfekční přípravky, speciální kosmetika
-              </strong>
+              </strong>{" "}
               Menalind, Seni Care, Tena
             </li>
             <li className="mb-4">

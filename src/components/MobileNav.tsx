@@ -13,7 +13,7 @@ function MobileNav() {
     <nav className="flex justify-end">
       <HamburgerBtn toggleOpen={toggleOpen} isOpen={isOpen} />
       {isOpen ? (
-        <div className="absolute right-0 top-0 h-screen bg-darker p-8 pt-28 font-medium">
+        <div className="bg-hamburgerBg absolute right-0 top-0 h-screen p-8 pt-28 font-medium">
           <div className="mb-16">
             <IsStoreOpen />
             <p>pondělí až čtvrtek 8 - 17</p>
@@ -21,13 +21,19 @@ function MobileNav() {
           </div>
           <ul className="flex flex-col gap-8">
             <li onClick={toggleOpen}>
-              <a href="#onas">O nás</a>
+              <a href="#onas" className="text-blue">
+                O nás
+              </a>
             </li>
             <li onClick={toggleOpen}>
-              <a href="#produkty">Produkty</a>
+              <a href="#produkty" className="text-blue">
+                Produkty
+              </a>
             </li>
             <li onClick={toggleOpen}>
-              <a href="#kontakt">Kontakt</a>
+              <a href="#kontakt" className="text-blue">
+                Kontakt
+              </a>
             </li>
           </ul>
         </div>
