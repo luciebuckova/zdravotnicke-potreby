@@ -10,7 +10,7 @@
       rgba(59, 7, 100, 0.8),
       rgba(74, 4, 78, 0.75)
     ),
-    url("src/assets/bg.jpg");
+    url("/bg.jpg");
   background-size: cover;
   background-position: center;
 }
