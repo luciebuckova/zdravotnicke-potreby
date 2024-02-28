@@ -2,11 +2,11 @@ import GoogleMap from "../utils/GoogleMap";
 
 function Contact() {
   return (
-    <section id="kontakt" className="py-8 md:py-32">
+    <section id="kontakt" className="mx-auto max-w-7xl p-8 md:py-32">
       <h3 className="text-gradient mb-8 inline-block text-2xl font-bold md:mb-14 md:text-4xl">
         Kontakt
       </h3>
-      <h4 className="text-fuchsia-600 mb-4 text-lg font-medium md:text-xl">
+      <h4 className="mb-4 text-lg font-medium text-fuchsia-600 md:text-xl">
         Otevírací doba:
       </h4>
       <ul className="md:text-lg">
@@ -16,7 +16,7 @@ function Contact() {
       <div className="mt-8">
         <GoogleMap />
       </div>
-      <div className="text-blue-700 mt-8 flex flex-col justify-between gap-4 lg:flex-row">
+      <div className="mt-8 flex flex-col justify-between gap-4 text-blue-700 lg:flex-row">
         <div className="flex items-center gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"

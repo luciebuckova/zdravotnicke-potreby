@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section id="onas" className="py-8 md:py-32">
+    <section id="onas" className="mx-auto max-w-7xl p-8 md:py-32">
       <h3 className="text-gradient mb-8 inline-block text-2xl font-bold md:mb-14 md:text-4xl">
         O nás
       </h3>

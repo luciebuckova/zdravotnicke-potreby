@@ -1,6 +1,6 @@
 function Products() {
   return (
-    <section id="produkty" className="py-8 md:py-32">
+    <section id="produkty" className="mx-auto max-w-7xl p-8 md:py-32">
       <h3 className="text-gradient mb-8 inline-block text-2xl font-bold md:mb-14 md:text-4xl">
         Produkty
       </h3>
@@ -12,7 +12,7 @@ function Products() {
         přijímáme také <strong className="text-fuchsia-600">ePoukazy</strong>.
       </p>
       <div className="grid items-start gap-8 lg:grid-cols-3">
-        <div className="border-blue-700 bg-slate-50 mt-16 rounded-xl border-2 p-8">
+        <div className="mt-16 rounded-xl border-2 border-blue-700 bg-slate-50 p-8">
           <ul>
             <li className="mb-4">
               <strong className="text-blue-700">Inkontinenční vložky</strong>{" "}
@@ -32,7 +32,7 @@ function Products() {
             </li>
           </ul>
         </div>
-        <div className="border-purple-700 bg-slate-50 rounded-xl border-2 p-8 lg:mt-24">
+        <div className="rounded-xl border-2 border-purple-700 bg-slate-50 p-8 lg:mt-24">
           <ul>
             <li className="mb-4">
               <strong className="text-purple-700">Rehabilitační pomůcky</strong>{" "}
@@ -49,7 +49,7 @@ function Products() {
             </li>
           </ul>
         </div>
-        <div className="border-fuchsia-600 bg-slate-50 rounded-xl border-2 p-8 lg:mt-32">
+        <div className="rounded-xl border-2 border-fuchsia-600 bg-slate-50 p-8 lg:mt-32">
           <ul>
             <li className="mb-4">
               <strong className="text-fuchsia-600">
