@@ -13,7 +13,7 @@ function MobileNav() {
     <nav className="flex justify-end">
       <HamburgerBtn toggleOpen={toggleOpen} isOpen={isOpen} />
       {isOpen ? (
-        <div className="absolute right-0 top-0 h-screen bg-purple-950 p-8 pt-28 font-medium text-white">
+        <div className="absolute right-0 top-0 z-40 h-screen bg-purple-950 p-8 pt-28 font-medium text-white">
           <div className="mb-16">
             <IsStoreOpen />
             <p>pondělí až čtvrtek 8 - 17</p>
