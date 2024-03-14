@@ -3,9 +3,11 @@ function Hero({ children }: { children: React.ReactNode }) {
     <section className="hero h-screen">
       {children}
       <div className="absolute inset-x-0 top-1/2">
-        <div className="mx-auto max-w-7xl -translate-y-1/2 p-8">
-          <h1 className="mb-8 text-4xl font-bold leading-tight text-white md:text-7xl">
-            Zdravotnické potřeby Ludmila Bučková
+        <div className="mx-auto max-w-7xl -translate-y-1/2 p-8 text-center">
+          <h1 className="mb-8 text-4xl font-bold leading-tight text-white md:text-7xl md:leading-tight">
+            Zdravotnické potřeby
+            <br />
+            Ludmila Bučková
           </h1>
           <h2 className="mb-14 text-lg font-medium tracking-wider text-white md:text-2xl">
             V centru <strong className="text-fuchsia-400">Liberce</strong> Vám
